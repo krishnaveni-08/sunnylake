@@ -1,0 +1,314 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Spline+Sans:wght@500&display=swap');
+
+:root{
+    --font-family:"Epilogue", sans-serif;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font-family);
+}
+
+nav{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    z-index: 10000;
+}
+nav .wrap{
+    width: 93%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .wrap .logo{
+    width: 176px;
+    height: 32px;
+}
+nav .wrap ul{
+    width: 800px;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .wrap ul li{
+    text-decoration: none;
+    list-style: none;
+}
+nav .wrap ul li a{
+    text-decoration: none;
+    color: #262626;
+    font-family: var(--font-family);
+    font-size: 18px;
+}
+nav .wrap .menu{
+    width: 64px;
+    height: 64px;
+}
+ .banner{
+    width: 100%;
+    height: 90vh;
+    background: url(./image/banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .banner .wrap{
+    width: 93%;
+    height: 85%;
+    display: flex;
+    
+
+}
+ .banner .wrap .head {
+    width: 93%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+justify-content: end;
+    gap: 20px;
+}
+ .banner .wrap .head h1{
+    font-size: 64px;
+    color: white;
+    font-weight: 700;
+}
+ .banner .wrap .head a button{
+    width: 115px;
+    height: 50px;
+    padding: 14px 24px 10px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+ .banner .wrap .head button:hover{
+    background-color: white;
+    color: black;
+}
+ .banner .wrap .para{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: end;
+   
+}
+ .banner .wrap .para p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    color: white;
+    
+}
+
+/* header end */
+
+/* park st */
+#park{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 237, 236);
+    /* position: sticky;
+    top: 0;
+    z-index: -10; */
+}
+ #park .wrap{
+    width: 93%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+#park .wrap .text-container{
+    width: 40%;
+    height: 90%;
+    display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: start;
+}
+
+#park .wrap .text-container h1{
+font-size: 48px;
+line-height: 60px;
+}
+#park .wrap .text-container p{
+    width: 85%;
+    font-size: 18px;
+    line-height: 24px;
+}
+#park .wrap .right-image{
+    width: 65%;
+    height: 100%;
+    position: sticky;
+    top: 100px;
+}
+#park .wrap .right-image .image img{
+    width: 100%;
+    height: 100%;
+}
+#park .wrap .right-image .image{
+    /* position: sticky; */
+
+}
+/* park end */
+
+#dream{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 237, 236);
+    align-items: center;
+    justify-content: center;
+
+}
+#dream .wrap {
+    width: 93%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+#dream h1{
+    width: 90%;
+    height: 30%;
+    font-size: 48px;
+    text-align: start;
+
+}
+#dream  .wrap .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+#dream  .wrap  .container .card{
+    width: 450px;
+    height: 600px;
+    background-image: url(./image/imageone.webp);
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+
+}
+#dream  .wrap  .container .card two{
+    background-image: url(./image/imagetwo.webp);
+}
+#dream  .wrap  .container .card img{
+    width: 80%;
+    height: 80%;
+}
+#dream  .wrap  .container .card:hover img{
+    transform: scale(1.2);
+    zoom: 1;
+}
+#dream  .container .card .text{
+width: 100%;
+height: 100%;
+display: flex;
+align-items: end;
+justify-content: end;
+/* background-color: blueviolet; */
+
+
+}
+#dream  .container .card .text h1{
+    text-align: start;
+    font-size: 32px;
+    color: white;
+    
+} 
+#dream  .container .card .text a button{
+    width: 80%;
+    height: 50px;
+    display: none;
+}
+#dream  .container .card .card:hover img{
+    width: 80%;
+    height: 50px;
+    display: block;
+}
+/* dream end */
+
+/* perfect strat */
+
+#perfect{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(238, 237, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#perfect .wrap{
+    width: 93%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#perfect .wrap .left-img{
+    width: 60%;
+    height: 90%;
+}
+#perfect .wrap .left-img img{
+    width: 100%;
+    height: 100%;
+}
+#perfect .wrap .right-container{
+width: 35%;
+height: 55%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+#perfect .wrap .right-container a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+
+}
+#perfect .wrap .right-container a h1{
+    color: black;
+    font-size: 48px;
+}
+#perfect .wrap .right-container a p{
+font-size: 18px;
+line-height: 24px;
+}
+#perfect .wrap .right-container a button{
+    width: 35%;
+    height: 55px;
+    font-size: 18px;
+
+}
+#perfect .wrap .right-container a button:hover{
+    width: 35%;
+    height: 55px;
+    background-color: rgb(1, 99, 1);
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+/* perfect end */
